@@ -1,2 +1,13 @@
+**/*.log
+.#*
+**/*-key.pem
+**/*-cert.pem
+node_modules/
+**/.DS_Store
+.hz/
+config.toml
+**/.vscode
+**/.sublime-*
+
 # Coverage directory used by tools like istanbul
 coverage
