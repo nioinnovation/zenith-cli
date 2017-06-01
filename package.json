@@ -1,11 +1,11 @@
 {
-  "name": "horizon",
+  "name": "@nio/zenith",
   "version": "2.0.0",
   "description": "An open-source developer platform for building realtime, scalable web apps.",
   "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rethinkdb/horizon.git"
+    "url": "git+https://github.com/nioinnovation/zenith-cli.git"
   },
   "scripts": {
     "lint": "eslint src test",
@@ -13,17 +13,24 @@
     "coverage": "istanbul cover _mocha test"
   },
   "author": "RethinkDB",
+  "contributors": [
+    {
+      "name": "n.io",
+      "email": "info@n.io",
+      "url": "https://n.io/"
+    }
+  ],
   "license": "MIT",
   "bin": {
-    "hz": "src/main.js",
-    "horizon": "src/main.js"
+    "zen": "src/main.js",
+    "zenith": "src/main.js"
   },
   "bugs": {
-    "url": "https://github.com/rethinkdb/horizon/issues"
+    "url": "https://github.com/nioinnovation/zenith-cli/issues"
   },
-  "homepage": "https://github.com/rethinkdb/horizon#readme",
+  "homepage": "https://github.com/nioinnovation/zenith-cli#readme",
   "dependencies": {
-    "@horizon/server": "2.0.0",
+    "@nio/zenith-server": "2.0.0",
     "argparse": "^1.0.3",
     "bluebird": "^3.4.1",
     "chalk": "^1.1.3",
