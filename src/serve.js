@@ -18,7 +18,7 @@ const NiceError = require('./utils/nice_error.js');
 const interrupt = require('./utils/interrupt');
 const schema = require('./schema');
 
-const horizon_server = require('@horizon/server');
+const horizon_server = require('@nio/zenith-server');
 const logger = horizon_server.logger;
 
 const TIMEOUT_30_SECONDS = 30 * 1000;
