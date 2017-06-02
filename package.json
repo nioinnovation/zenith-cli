@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/nioinnovation/zenith-cli#readme",
   "dependencies": {
-    "@nio/zenith-server": "2.0.0",
+    "@nio/zenith-server": "^2.0.1",
     "argparse": "^1.0.3",
     "bluebird": "^3.4.1",
     "chalk": "^1.1.3",
